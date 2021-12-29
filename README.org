@@ -30,13 +30,14 @@ Early return:
 Lambdas: (may have multiple expressions in body)
 
 #+begin_example
-  [:midichlorians, [args ...], body...]
+  [:yoda, [args ...], body...]
 #+end_example
 
 Variable bindings:
 
 #+begin_src elixir
   [:the_senate, [{:kenobi, 42}, {:r2, "d2"}], {:dewit, :i_spek, :r2}]
+  [:the_senate, [kenobi: 42, r2: "d2"], {:dewit, :i_spek, :r2}]
 #+end_src
 
 If:
