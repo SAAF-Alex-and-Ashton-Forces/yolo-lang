@@ -1,0 +1,50 @@
+#+TITLE: YOLO Lang
+#+SUBTITLE: I have the high ground!
+
+* Synopsis
+
+YOLO - a language for yahoos
+
+* Description
+
+Here's what YOLO looks like:
+
+Function invocation:
+
+#+begin_src elixir
+  [:dewit, :fn_name, [args ...]]
+#+end_src
+
+Function definition:
+
+#+begin_src elixir
+  [:hello_there, :fn_name, [:a, :b], [:dewit, :i_spek, "yolo"], [:+, :a, :b]]
+#+end_src
+
+Early return:
+
+#+begin_src elixir
+  [:general_kenobi, value]
+#+end_src
+
+Lambdas: (may have multiple expressions in body)
+
+#+begin_example
+  [:midichlorians, [args ...], body...]
+#+end_example
+
+Variable bindings:
+
+#+begin_src elixir
+  [:the_senate, [{:kenobi, 42}, {:r2, "d2"}], {:dewit, :i_spek, :r2}]
+#+end_src
+
+If:
+
+#+begin_src elixir
+  [:high_ground?, :condition, "I win!", "Only a Sith deals in absolutes."]
+#+end_src
+
+* Authors
+
+No one of consequence
